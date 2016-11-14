@@ -1,5 +1,6 @@
 package org.teachingkidsprogramming.section04mastery;
 
+import org.teachingextensions.logo.Tortoise;
 import org.teachingkidsprogramming.recipes.quizzes.graders.PentagonCrazyQuizGrader;
 import org.teachingkidsprogramming.recipes.quizzes.graders.PentagonQuizAdapter;
 
@@ -10,15 +11,23 @@ public class PentagonCrazyQuiz extends PentagonQuizAdapter
     //  Question 1 
     //  createAStitch (recipe below) 
     //  ------------- Recipe for createAStitch
+    createAStitch();
+  }
+  private void createAStitch()
+  {
     //  Move the tortoise 6 pixels
+    Tortoise.move(6);
     //  ------------- End of createAStitch recipe
   }
   @Override
   public void question2()
   {
     //  Do the following 76 times
-    //      Call sewAStitch
-    //  Repeat
+    for (int i = 0; i < 76; i++)
+    {
+      //      Call sewAStitch
+      //  Repeat
+    }
   }
   @Override
   public void question3()
