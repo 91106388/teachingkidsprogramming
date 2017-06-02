@@ -27,7 +27,7 @@ public class DeepDive07Objects
     Tortoise rafael = new Tortoise();
     Tortoise michealangelo = new Tortoise();
     boolean result = rafael.equals(michealangelo);
-    Assert.assertEquals(______, result);
+    Assert.assertEquals(rafael.equals(michealangelo), result);
   }
   @Test
   public void twoTortoisesAgain() throws Exception
@@ -35,14 +35,14 @@ public class DeepDive07Objects
     Tortoise rafael = new Tortoise();
     Tortoise anonymousNinja = rafael;
     boolean result = rafael.equals(anonymousNinja);
-    Assert.assertEquals(_____, result);
+    Assert.assertEquals(rafael.equals(anonymousNinja), result);
   }
   @Test
   public void twoTortoisesYetAgain() throws Exception
   {
     Tortoise rafael = new Tortoise();
     Tortoise michelangelo = new Tortoise();
-    Tortoise anonymousNinja = ________;
+    Tortoise anonymousNinja = Tortoise;
     boolean result = michelangelo.equals(anonymousNinja);
     Assert.assertEquals(true, result);
   }

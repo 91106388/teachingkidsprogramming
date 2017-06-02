@@ -15,7 +15,7 @@ public class ChooseYourOwnAdventure_variation01
   }
   private static void startStory()
   {
-    tellMoreStory("You wake up in the underground...");
+    tellMoreStory("One morning the tortise woke up in a dream");
     animateStartStory();
     String action = askAQuestion("Do you want to 'wake up' or 'explore' the dream?");
     if ("wake up".equalsIgnoreCase(action))

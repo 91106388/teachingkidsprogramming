@@ -9,7 +9,7 @@ public class HiLow
   public static void main(String[] args)
   {
     int answer = NumberUtils.getRandomInt(1, 100);
-    for (int i = 0; i < 8; i++)
+    for (int i = 0; i < 2; i++)
     {
       int guess = MessageBox.askForNumericalInput("what's your guess");
       if (guess == answer)
